@@ -6,13 +6,10 @@ Ensure you have the following installed:
 - pip
 - npm
 
-### 1. Set Up Your Project Directory
-
-Create a new directory for your Flask project and navigate into it:
+### 1. Clone the Flask Tailwind Installer Repository
 
 ```bash
-mkdir flask_app
-cd flask_app
+gh repo clone digitaldesaster/flask_tailwind_installer my_flask_app
 ```
 
 ### 2. Create and Activate a Virtual Environment
