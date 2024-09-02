@@ -15,7 +15,7 @@ cd my_flask_app
 
 ### 2. Create and Activate a Virtual Environment
 
-Create and activate the virtual environment:
+Create and activate the virtual environment and open the project in VSCode
 
 - **macOS and Linux:**
 
