@@ -30,8 +30,20 @@ activate the virtual environment in VSCode
 source .venv/bin/activate
 ```
 
+### 3. Install the rest of the dependencies
+
 use the install.py script to install the rest of the dependencies
 
 ```bash
 python3 install.py
 ```
+
+### 4. Start the Flask Server, Browser-Sync and the TailwindCSS Watcher
+
+press cmd + shift + p and and run Start All to start the flask server, browser-sync and the tailwindcss watcher
+
+or start them seperately:
+
+- Start Flask
+- Start Browser-Sync
+- Watch CSS with TailwindCSS
