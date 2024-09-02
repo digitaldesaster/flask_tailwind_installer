@@ -49,3 +49,25 @@ or start them seperately:
 - Start Flask
 - Start Browser-Sync
 - Watch CSS with TailwindCSS
+
+### 6. Remove the .git folder
+
+```bash
+sudo rm -rf .git
+```
+
+### 7. Initialize a new Git Repository
+
+```bash
+gh repo create my_new_project --public --source=. --remote=origin
+```
+
+### 8. Push the changes to the remote repository
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+```
