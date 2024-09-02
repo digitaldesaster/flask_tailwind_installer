@@ -65,6 +65,7 @@ echo "node_modules/" >> .gitignore
 echo ".venv/" >> .gitignore
 echo ".env" >> .gitignore
 echo "package-lock.json" >> .gitignore
+echo ".DS_Store" >> .gitignore
 git add .
 git commit -m "Initial commit"
 git branch -M main
