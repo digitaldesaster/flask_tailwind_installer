@@ -6,14 +6,15 @@ Ensure you have the following installed:
 - pip
 - npm
 
-### 1. Clone the Flask Tailwind Installer Repository
+### 1. Open VSCode, create a new folder for your project and open it. start a terminal in VSCode
+
+### 2. Clone the Flask Tailwind Installer Repository into the new folder
 
 ```bash
-gh repo clone digitaldesaster/flask_tailwind_installer my_flask_app
-cd my_flask_app
+gh repo clone digitaldesaster/flask_tailwind_installer .
 ```
 
-### 2. Create and Activate a Virtual Environment
+### 3. Create and Activate a Virtual Environment
 
 Create and activate the virtual environment and open the project in VSCode
 
@@ -21,7 +22,6 @@ Create and activate the virtual environment and open the project in VSCode
 
 ```bash
 python3 -m venv .venv
-code .
 ```
 
 activate the virtual environment in VSCode
@@ -30,7 +30,7 @@ activate the virtual environment in VSCode
 source .venv/bin/activate
 ```
 
-### 3. Install the rest of the dependencies
+### 4. Install the rest of the dependencies
 
 use the install.py script to install the rest of the dependencies
 
@@ -38,7 +38,7 @@ use the install.py script to install the rest of the dependencies
 python3 install.py
 ```
 
-### 4. Start the Flask Server, Browser-Sync and the TailwindCSS Watcher
+### 5. Start the Flask Server, Browser-Sync and the TailwindCSS Watcher
 
 press cmd + shift + p and and run Start All to start the flask server, browser-sync and the tailwindcss watcher
 
