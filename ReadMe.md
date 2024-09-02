@@ -60,6 +60,11 @@ sudo rm -rf .git
 
 ```bash
 git init
+touch .gitignore
+echo "node_modules/" >> .gitignore
+echo ".venv/" >> .gitignore
+echo ".env" >> .gitignore
+echo "package-lock.json" >> .gitignore
 git add .
 git commit -m "Initial commit"
 git branch -M main
