@@ -21,7 +21,10 @@ Create and activate the virtual environment:
 
 ```bash
 python3 -m venv .venv
+code .
 ```
+
+activate the virtual environment in VSCode
 
 ```bash
 source .venv/bin/activate
