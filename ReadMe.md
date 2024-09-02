@@ -56,18 +56,23 @@ or start them seperately:
 sudo rm -rf .git
 ```
 
-### 7. Initialize a new Git Repository
-
-```bash
-gh repo create my_new_project --public --source=. --remote=origin
-```
-
-### 8. Push the changes to the remote repository
+### 7. prepare the git repository
 
 ```bash
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
+```
+
+### 8. Initialize a new Git Repository
+
+```bash
+gh repo create my_new_project --public --source=. --remote=origin
+```
+
+### 9. Push the changes to the remote repository
+
+```bash
 git push -u origin main
 ```
