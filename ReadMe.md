@@ -10,6 +10,7 @@ Ensure you have the following installed:
 
 ```bash
 gh repo clone digitaldesaster/flask_tailwind_installer my_flask_app
+cd my_flask_app
 ```
 
 ### 2. Create and Activate a Virtual Environment
