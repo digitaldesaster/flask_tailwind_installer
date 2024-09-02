@@ -6,7 +6,9 @@ Ensure you have the following installed:
 - pip
 - npm
 
-### 1. Open VSCode, create a new folder for your project and open it. start a terminal in VSCode
+### 1. Open VSCode
+
+Create a new folder for your project and open it. start a terminal in VSCode
 
 ### 2. Clone the Flask Tailwind Installer Repository into the new folder
 
